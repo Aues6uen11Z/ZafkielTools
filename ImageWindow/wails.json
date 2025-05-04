@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "ImageWindow",
+  "outputfilename": "ImageWindow",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Aues6uen11Z",
+    "email": "79563000+Aues6uen11Z@users.noreply.github.com"
+  }
+}

@@ -1,0 +1,39 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #3a6a8e;
+}
+
+.image-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: calc(100vh - 100px);
+}
+
+.image-container img {
+  /* 不设置max-width和max-height让图片保持原始大小 */
+  object-fit: contain;
+  display: block;
+} 
